@@ -28,6 +28,7 @@ h1, h2, h3, h4, p {
   font-size: 50px;
   text-align: center;
   font-weight: 750;
+  font-family: 'EB Garamond';
 }
 
 .site-header {
@@ -104,6 +105,19 @@ ul li {
 }
 
 
+/*     Research     */
+.research-container {
+  padding: 0% 5%;
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+
+.research-container h1 {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+
 /*     Art     */
 .art-container {
   padding: 20px;
@@ -146,7 +160,8 @@ ul li {
 
   .panel {
     text-align: left;
-    padding: 0 10px;
+    padding: 2px 0;
+    padding-left: 15px;
   }
 
   // Home Page
